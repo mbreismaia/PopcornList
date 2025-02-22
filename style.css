@@ -4,27 +4,19 @@ body {
 
 .movies {
     display: grid;
-    grid-template-columns: repeat(6, 200px); /* Cria 5 colunas com 200px cada */
+    grid-template-columns: repeat(2, 200px); /* Cria 5 colunas com 200px cada */
     gap: 20px; /* Espaçamento entre as divs */
     background-color: #343434;
 }
 
 .movie1,
-.movie2,
-.movie3,
-.movie4,
-.movie5,
-.movie6 {
+.movie2{
     width: 200px;
     height: 400px;
 }
 
 .movie1 img,
-.movie2 img,
-.movie3 img,
-.movie4 img,
-.movie5 img,
-.movie6 img {
+.movie2 img {
     max-width: 100%;
     height: auto;
 }
